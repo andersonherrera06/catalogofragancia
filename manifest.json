@@ -1,0 +1,10 @@
+{
+    "name": "Mi Catálogo de Esencias",
+    "short_name": "Mi Catálogo",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#f8f5f7",
+    "theme_color": "#d48bc0",
+    "description": "Catálogo de esencias y perfumes",
+    "icons": []
+}
