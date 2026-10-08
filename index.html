@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#d48bc0">
+
+    <title>Catálogo de Esencias</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+
+    <header class="header">
+
+        <div class="logo">
+            <span>✨</span>
+            <div>
+                <h1>Mi Catálogo</h1>
+                <p>Esencias y perfumes</p>
+            </div>
+        </div>
+
+        <button id="botonCarrito" class="boton-carrito">
+            🛒
+            <span id="contadorCarrito">0</span>
+        </button>
+
+    </header>
+
+
+    <!-- PRESENTACIÓN -->
+
+    <section class="hero">
+
+        <div>
+
+            <p class="etiqueta">
+                CATÁLOGO ONLINE
+            </p>
+
+            <h2>
+                Encuentra tu esencia favorita
+            </h2>
+
+            <p>
+                Diferentes fragancias y presentaciones
+                para dama y caballero.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- BUSCADOR -->
+
+    <section class="controles">
+
+        <div class="buscador">
+
+            <span>🔎</span>
+
+            <input
+                type="text"
+                id="buscador"
+                placeholder="Buscar una esencia..."
+            >
+
+        </div>
+
+
+        <div class="categorias">
+
+            <button
+                class="boton-filtro activo"
+                data-categoria="Todos">
+
+                Todos
+
+            </button>
+
+            <button
+                class="boton-filtro"
+                data-categoria="Dama">
+
+                Dama
+
+            </button>
+
+            <button
+                class="boton-filtro"
+                data-categoria="Hombre">
+
+                Hombre
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCTOS -->
+
+    <main>
+
+        <div class="titulo-productos">
+
+            <div>
+
+                <h2>Catálogo</h2>
+
+                <p id="cantidadProductos">
+                    Productos disponibles
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <section
+            id="listaProductos"
+            class="productos">
+
+        </section>
+
+    </main>
+
+
+    <!-- CARRITO -->
+
+    <div
+        id="fondoCarrito"
+        class="fondo-carrito oculto">
+
+        <aside class="carrito">
+
+            <div class="carrito-header">
+
+                <div>
+
+                    <h2>🛒 Mi carrito</h2>
+
+                    <p id="cantidadCarrito">
+                        0 productos
+                    </p>
+
+                </div>
+
+                <button
+                    id="cerrarCarrito"
+                    class="cerrar">
+
+                    ✕
+
+                </button>
+
+            </div>
+
+
+            <div
+                id="listaCarrito"
+                class="lista-carrito">
+
+            </div>
+
+
+            <div class="carrito-footer">
+
+                <div class="total">
+
+                    <span>Total</span>
+
+                    <strong id="totalCarrito">
+                        $0
+                    </strong>
+
+                </div>
+
+
+                <button
+                    id="vaciarCarrito"
+                    class="boton-secundario">
+
+                    Vaciar carrito
+
+                </button>
+
+
+                <button
+                    id="pedirWhatsApp"
+                    class="boton-whatsapp">
+
+                    📲 Pedir por WhatsApp
+
+                </button>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+
+    <!-- PIE DE PÁGINA -->
+
+    <footer>
+
+        <h3>Mi Catálogo</h3>
+
+        <p>
+            Gracias por visitar nuestro catálogo.
+        </p>
+
+        <p>
+            📲 Pedidos por WhatsApp
+        </p>
+
+    </footer>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
