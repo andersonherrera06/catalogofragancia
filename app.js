@@ -1328,7 +1328,7 @@ function enviarWhatsApp() {
     */
 
     const numeroWhatsApp =
-        "573105586821";
+        "+573113527728";
 
 
     let mensaje =
